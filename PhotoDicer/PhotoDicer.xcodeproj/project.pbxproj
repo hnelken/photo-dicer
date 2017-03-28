@@ -13,7 +13,6 @@
 		D8FB5DCA1E3948580028B702 /* PhotoDicer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8FB5DC81E3948580028B702 /* PhotoDicer.xcdatamodeld */; };
 		D8FB5DCC1E3948580028B702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8FB5DCB1E3948580028B702 /* Assets.xcassets */; };
 		D8FB5DCF1E3948580028B702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FB5DCD1E3948580028B702 /* LaunchScreen.storyboard */; };
-		D8FB5DDB1E395BBB0028B702 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FB5DDA1E395BBB0028B702 /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		D8FB5DCB1E3948580028B702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8FB5DCE1E3948580028B702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8FB5DD01E3948580028B702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8FB5DDA1E395BBB0028B702 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				D8FB5DC31E3948580028B702 /* ViewController.swift */,
-				D8FB5DDA1E395BBB0028B702 /* CalculatorViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -177,7 +174,6 @@
 			files = (
 				D8FB5DCA1E3948580028B702 /* PhotoDicer.xcdatamodeld in Sources */,
 				D8FB5DC41E3948580028B702 /* ViewController.swift in Sources */,
-				D8FB5DDB1E395BBB0028B702 /* CalculatorViewController.swift in Sources */,
 				D8FB5DC21E3948580028B702 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +338,7 @@
 				D8FB5DD51E3948580028B702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

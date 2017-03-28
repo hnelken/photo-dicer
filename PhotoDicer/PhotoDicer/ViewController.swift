@@ -22,24 +22,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
     @IBAction func takePicturePressed(_ sender: Any) {
-        
         // Go to camera screen
-        print("Take pressed")
-        
         topLabel.text = "TAKE"
-        
     }
     
     @IBAction func uploadPicturePressed(_ sender: Any) {
-        
         // Go to camera roll
-        print("Upload pressed")
-        
         topLabel.text = "UPLOAD"
     }
-    
-
 }
 
