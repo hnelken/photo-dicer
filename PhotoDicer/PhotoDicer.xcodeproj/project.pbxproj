@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8FB5DC21E3948580028B702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FB5DC11E3948580028B702 /* AppDelegate.swift */; };
+		D8FB5DC41E3948580028B702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FB5DC31E3948580028B702 /* ViewController.swift */; };
+		D8FB5DC71E3948580028B702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FB5DC51E3948580028B702 /* Main.storyboard */; };
+		D8FB5DCA1E3948580028B702 /* PhotoDicer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8FB5DC81E3948580028B702 /* PhotoDicer.xcdatamodeld */; };
+		D8FB5DCC1E3948580028B702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8FB5DCB1E3948580028B702 /* Assets.xcassets */; };
+		D8FB5DCF1E3948580028B702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FB5DCD1E3948580028B702 /* LaunchScreen.storyboard */; };
+		D8FB5DDB1E395BBB0028B702 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FB5DDA1E395BBB0028B702 /* CalculatorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8FB5DBE1E3948580028B702 /* PhotoDicer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoDicer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FB5DC11E3948580028B702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8FB5DC31E3948580028B702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8FB5DC61E3948580028B702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8FB5DC91E3948580028B702 /* PhotoDicer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoDicer.xcdatamodel; sourceTree = "<group>"; };
+		D8FB5DCB1E3948580028B702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8FB5DCE1E3948580028B702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8FB5DD01E3948580028B702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FB5DDA1E395BBB0028B702 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8FB5DBB1E3948580028B702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8FB5DB51E3948580028B702 = {
+			isa = PBXGroup;
+			children = (
+				D8FB5DC01E3948580028B702 /* PhotoDicer */,
+				D8FB5DBF1E3948580028B702 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8FB5DBF1E3948580028B702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB5DBE1E3948580028B702 /* PhotoDicer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8FB5DC01E3948580028B702 /* PhotoDicer */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB5DD61E39497E0028B702 /* ViewControllers */,
+				D8FB5DD91E3949D70028B702 /* View */,
+				D8FB5DD81E3949B20028B702 /* Data Model */,
+				D8FB5DD71E3949980028B702 /* Resources */,
+			);
+			path = PhotoDicer;
+			sourceTree = "<group>";
+		};
+		D8FB5DD61E39497E0028B702 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB5DC31E3948580028B702 /* ViewController.swift */,
+				D8FB5DDA1E395BBB0028B702 /* CalculatorViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D8FB5DD71E3949980028B702 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB5DCB1E3948580028B702 /* Assets.xcassets */,
+				D8FB5DD01E3948580028B702 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D8FB5DD81E3949B20028B702 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB5DC11E3948580028B702 /* AppDelegate.swift */,
+				D8FB5DC81E3948580028B702 /* PhotoDicer.xcdatamodeld */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		D8FB5DD91E3949D70028B702 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB5DC51E3948580028B702 /* Main.storyboard */,
+				D8FB5DCD1E3948580028B702 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8FB5DBD1E3948580028B702 /* PhotoDicer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8FB5DD31E3948580028B702 /* Build configuration list for PBXNativeTarget "PhotoDicer" */;
+			buildPhases = (
+				D8FB5DBA1E3948580028B702 /* Sources */,
+				D8FB5DBB1E3948580028B702 /* Frameworks */,
+				D8FB5DBC1E3948580028B702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoDicer;
+			productName = PhotoDicer;
+			productReference = D8FB5DBE1E3948580028B702 /* PhotoDicer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8FB5DB61E3948580028B702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Harry Nelken";
+				TargetAttributes = {
+					D8FB5DBD1E3948580028B702 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X7WMT94Y93;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D8FB5DB91E3948580028B702 /* Build configuration list for PBXProject "PhotoDicer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8FB5DB51E3948580028B702;
+			productRefGroup = D8FB5DBF1E3948580028B702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8FB5DBD1E3948580028B702 /* PhotoDicer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8FB5DBC1E3948580028B702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FB5DCF1E3948580028B702 /* LaunchScreen.storyboard in Resources */,
+				D8FB5DCC1E3948580028B702 /* Assets.xcassets in Resources */,
+				D8FB5DC71E3948580028B702 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8FB5DBA1E3948580028B702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8FB5DCA1E3948580028B702 /* PhotoDicer.xcdatamodeld in Sources */,
+				D8FB5DC41E3948580028B702 /* ViewController.swift in Sources */,
+				D8FB5DDB1E395BBB0028B702 /* CalculatorViewController.swift in Sources */,
+				D8FB5DC21E3948580028B702 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8FB5DC51E3948580028B702 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8FB5DC61E3948580028B702 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8FB5DCD1E3948580028B702 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8FB5DCE1E3948580028B702 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8FB5DD11E3948580028B702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8FB5DD21E3948580028B702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8FB5DD41E3948580028B702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X7WMT94Y93;
+				INFOPLIST_FILE = PhotoDicer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnelken.PhotoDicer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D8FB5DD51E3948580028B702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X7WMT94Y93;
+				INFOPLIST_FILE = PhotoDicer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnelken.PhotoDicer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8FB5DB91E3948580028B702 /* Build configuration list for PBXProject "PhotoDicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FB5DD11E3948580028B702 /* Debug */,
+				D8FB5DD21E3948580028B702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8FB5DD31E3948580028B702 /* Build configuration list for PBXNativeTarget "PhotoDicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FB5DD41E3948580028B702 /* Debug */,
+				D8FB5DD51E3948580028B702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D8FB5DC81E3948580028B702 /* PhotoDicer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D8FB5DC91E3948580028B702 /* PhotoDicer.xcdatamodel */,
+			);
+			currentVersion = D8FB5DC91E3948580028B702 /* PhotoDicer.xcdatamodel */;
+			path = PhotoDicer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D8FB5DB61E3948580028B702 /* Project object */;
+}
