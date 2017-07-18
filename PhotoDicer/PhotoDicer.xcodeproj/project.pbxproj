@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D86E526F1F1D8DC6004F684E /* DicerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D86E526E1F1D8DC6004F684E /* DicerView.xib */; };
+		D86E52731F1D8DEC004F684E /* DicerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86E52711F1D8DEC004F684E /* DicerViewController.swift */; };
+		D86E52741F1D8DEC004F684E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86E52721F1D8DEC004F684E /* HomeViewController.swift */; };
 		D8FB5DC21E3948580028B702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FB5DC11E3948580028B702 /* AppDelegate.swift */; };
-		D8FB5DC41E3948580028B702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FB5DC31E3948580028B702 /* ViewController.swift */; };
 		D8FB5DC71E3948580028B702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FB5DC51E3948580028B702 /* Main.storyboard */; };
 		D8FB5DCA1E3948580028B702 /* PhotoDicer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8FB5DC81E3948580028B702 /* PhotoDicer.xcdatamodeld */; };
 		D8FB5DCC1E3948580028B702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8FB5DCB1E3948580028B702 /* Assets.xcassets */; };
@@ -16,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D86E526E1F1D8DC6004F684E /* DicerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DicerView.xib; sourceTree = "<group>"; };
+		D86E52711F1D8DEC004F684E /* DicerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DicerViewController.swift; sourceTree = "<group>"; };
+		D86E52721F1D8DEC004F684E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D8FB5DBE1E3948580028B702 /* PhotoDicer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoDicer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FB5DC11E3948580028B702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8FB5DC31E3948580028B702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8FB5DC61E3948580028B702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8FB5DC91E3948580028B702 /* PhotoDicer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoDicer.xcdatamodel; sourceTree = "<group>"; };
 		D8FB5DCB1E3948580028B702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +41,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D86E526D1F1D8DC6004F684E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D86E526E1F1D8DC6004F684E /* DicerView.xib */,
+				D8FB5DC51E3948580028B702 /* Main.storyboard */,
+				D8FB5DCD1E3948580028B702 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D86E52701F1D8DEC004F684E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D86E52711F1D8DEC004F684E /* DicerViewController.swift */,
+				D86E52721F1D8DEC004F684E /* HomeViewController.swift */,
+			);
+			name = "View Controllers";
+			path = "PhotoDicer/View Controllers";
+			sourceTree = SOURCE_ROOT;
+		};
 		D8FB5DB51E3948580028B702 = {
 			isa = PBXGroup;
 			children = (
@@ -56,20 +80,12 @@
 		D8FB5DC01E3948580028B702 /* PhotoDicer */ = {
 			isa = PBXGroup;
 			children = (
-				D8FB5DD61E39497E0028B702 /* ViewControllers */,
-				D8FB5DD91E3949D70028B702 /* View */,
+				D86E526D1F1D8DC6004F684E /* Views */,
+				D86E52701F1D8DEC004F684E /* View Controllers */,
 				D8FB5DD81E3949B20028B702 /* Data Model */,
 				D8FB5DD71E3949980028B702 /* Resources */,
 			);
 			path = PhotoDicer;
-			sourceTree = "<group>";
-		};
-		D8FB5DD61E39497E0028B702 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				D8FB5DC31E3948580028B702 /* ViewController.swift */,
-			);
-			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		D8FB5DD71E3949980028B702 /* Resources */ = {
@@ -88,15 +104,6 @@
 				D8FB5DC81E3948580028B702 /* PhotoDicer.xcdatamodeld */,
 			);
 			name = "Data Model";
-			sourceTree = "<group>";
-		};
-		D8FB5DD91E3949D70028B702 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D8FB5DC51E3948580028B702 /* Main.storyboard */,
-				D8FB5DCD1E3948580028B702 /* LaunchScreen.storyboard */,
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86E526F1F1D8DC6004F684E /* DicerView.xib in Resources */,
 				D8FB5DCF1E3948580028B702 /* LaunchScreen.storyboard in Resources */,
 				D8FB5DCC1E3948580028B702 /* Assets.xcassets in Resources */,
 				D8FB5DC71E3948580028B702 /* Main.storyboard in Resources */,
@@ -173,8 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8FB5DCA1E3948580028B702 /* PhotoDicer.xcdatamodeld in Sources */,
-				D8FB5DC41E3948580028B702 /* ViewController.swift in Sources */,
+				D86E52731F1D8DEC004F684E /* DicerViewController.swift in Sources */,
 				D8FB5DC21E3948580028B702 /* AppDelegate.swift in Sources */,
+				D86E52741F1D8DEC004F684E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +196,7 @@
 				D8FB5DC61E3948580028B702 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D8FB5DCD1E3948580028B702 /* LaunchScreen.storyboard */ = {
@@ -195,6 +205,7 @@
 				D8FB5DCE1E3948580028B702 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
